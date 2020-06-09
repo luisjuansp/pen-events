@@ -1,0 +1,25 @@
+.grid-container {
+  display: grid;
+  margin: 10vh 20vw;
+  border-width: 1vw 1vw 0 1vw;
+  border-style: solid;
+  border-color: orange;
+  grid-template-columns: auto;
+}
+
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgreen;
+  border-width: 0 0 1vw 0;
+  border-style: solid;
+  border-color: orange;
+  text-align: center;
+  font-size: 5vw;
+}
+
+.pressed {
+  background-color: darkgreen;
+  color: white;
+}
