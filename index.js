@@ -1,4 +1,4 @@
-let ids = ["click", "doubleclick", "pressandhold"]
+let ids = ["click", "dblclick", "pressandhold"]
 let events = []
 let dataFileUrl = null
 
